@@ -55,6 +55,5 @@ const determineWinner = (userChoice, computerChoice) => {
 		}
 	}
 }
-
-console.log(determineWinner("scissors", computerChoice()));
+determineWinner("scissors", computerChoice());
 // console.log(userChoice('Rock'));
